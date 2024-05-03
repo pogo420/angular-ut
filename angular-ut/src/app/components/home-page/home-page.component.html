@@ -1,0 +1,7 @@
+<p>home-page works!</p>
+<ng-container *ngIf="isBlack; else white">
+    <p id="text">Black</p>
+</ng-container>
+<ng-template #white>
+    <p id="text">White</p>
+</ng-template>
